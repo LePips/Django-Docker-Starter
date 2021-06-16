@@ -69,6 +69,9 @@ cp ../../django-base/entrypoint.sh .
 cp ../../django-base/entrypoint.prod.sh .
 cp ../../django-base/requirements.txt .
 
+chmod +x entrypoint.sh
+chmod +x entrypoint.prod.sh
+
 # Setup python virtual environment with imports
 echo "\tCreate python virtual environment..."
 python3 -m venv env
