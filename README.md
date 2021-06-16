@@ -20,3 +20,4 @@ sh django-docker-script.sh hello_django
 - Implement the ability to add custom front end servers (like React/Vue) in the case the backend is used as a REST api (since djangorestframework is provided in requirements.txt)
 - Ensure portability to other OS's
 - Better print outs
+- Package as a brew formula and/or debian package
