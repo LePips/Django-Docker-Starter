@@ -19,3 +19,4 @@ sh django-docker-script.sh hello_django
 - Expanding the script to the next tutorial in the series: [Securing a Containerized Django Application with Let's Encrypt](https://testdriven.io/blog/django-lets-encrypt/)
 - Implement the ability to add custom front end servers (like Vue) in the case the backend is used as a REST api (since djangorestframework is provided in requirements.txt)
 - Ensure portability to other OS's
+- Better print outs
